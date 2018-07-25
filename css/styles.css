@@ -10,12 +10,23 @@ body{
   max-height:0px;
   overflow: hidden;
 }
-
+.drop{
+  float: left;
+  padding-left: 10px;
+  margin-left: 300px;
+}
+.menu{
+  float: right;
+  text-align: center;
+  padding-right: 10px;
+  margin-right: 500px;
+}
 .drop,.menu {
   background-color: #4286f4;
   border-bottom: 2px solid black;
   box-shadow: 3px 3px 3px #3366cc;
   color: #ffffff;
+  border-radius: 30%;
 }
 .drop ul, .menu ul {
   list-style-type: none;
