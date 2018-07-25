@@ -10,6 +10,7 @@ body{
   max-height:0px;
   overflow: hidden;
 }
+
 .drop,.menu {
   background-color: #4286f4;
   border-bottom: 2px solid black;
@@ -41,10 +42,7 @@ input:checked ~ label{
 }
 input:checked ~ .content, input:checked ~.content1 {
   max-height: 100%;
-}
-.content {
-  transform: scale(1);
-  transition:rotate
+  transition:
 }
 .footer{
   background-color: #000864;
